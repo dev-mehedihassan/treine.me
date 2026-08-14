@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+ul,ol,dl{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+.container{
+    max-width: 1032px;
+    margin: 0 auto;
+}
+
+/* ==== Navbar Section Style Start ==== */
+#navbar {
+  padding-top: 64px;
+}
+
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.nav_menu li a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1F1534;
+  transition: all linear 0.3s;
+}
+
+.nav_menu li a:hover {
+  font-weight: 700;
+}
+/* ==== Navbar Section Style End ==== */
+
+
+/* ==== Banner Section Style Start ==== */
+#banner {
+  padding: 21px 0;
+}
+
+.banner_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner_content {
+  width: 50%;
+}
+
+.banner_content h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.banner_content h1 span {
+  font-weight: 700;
+  color: #89C5CC;
+}
+
+.banner_content p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #7D7987;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+.banner_content p span {
+  font-weight: 700;
+}
+
+.btn_start {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  background: #69B99D;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #F9F9F9;
+}
+
+.btn_start i {
+  font-size: 24px;
+}
+
+.btn_start:hover {
+  background: #F9F9F9;
+  color: #69B99D;
+  transform: translateY(-2px);
+}
+
+.banner_img {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner_img img {
+  width: 520px;
+  height: 515px;
+}
+
+.banner_footer {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.message_note {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #000000;
+  text-align: center;
+}
+
+.message_note span {
+  font-weight: 700;
+}
+
+.dots_pattern {
+  position: absolute;
+  content: "";
+  right: -50px;
+  bottom: -70px;
+}
+
+.dots_pattern img {
+  width: 98px;
+  height: 88px;
+}
+/* ==== Banner Section Style End ==== */
