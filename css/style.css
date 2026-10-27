@@ -245,3 +245,116 @@ h1,h2,h3,h4,h5,h6,p{
   color: #7D7987;
 }
 /* ==== Features Section Style End ==== */
+
+/* ==== Programs Section Style Start ==== */
+#programs {
+  padding: 0 0 120px;
+}
+
+.programs_header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.programs_header h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  color: #1F1534;
+}
+
+.programs_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.program_card {
+  width: 320px;
+  background: #ffffff;
+  border: 1px solid rgba(105, 185, 157, 0.18);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(31, 21, 52, 0.08);
+  transition: all linear 0.3s;
+}
+
+.program_card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 35px rgba(31, 21, 52, 0.12);
+}
+
+.feature_card_active {
+  background: #69B99D;
+  border-color: #69B99D;
+}
+
+.program_image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+.program_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.program_content {
+  padding: 28px 24px 30px;
+}
+
+.program_badge {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(105, 185, 157, 0.12);
+  color: #69B99D;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.feature_card_active .program_badge,
+.feature_card_active .program_link,
+.feature_card_active .program_content h3,
+.feature_card_active .program_content p {
+  color: #ffffff;
+}
+
+.feature_card_active .program_badge {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.program_content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 130%;
+  color: #1F1534;
+  margin-bottom: 14px;
+}
+
+.program_content p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 180%;
+  color: #7D7987;
+  margin-bottom: 20px;
+}
+
+.program_link {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #69B99D;
+}
+/* ==== Programs Section Style End ==== */
