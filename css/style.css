@@ -358,3 +358,82 @@ h1,h2,h3,h4,h5,h6,p{
   color: #69B99D;
 }
 /* ==== Programs Section Style End ==== */
+
+/* ==== Journey Section Style Start ==== */
+#journey {
+  padding: 0 0 120px;
+}
+
+.journey_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 56px;
+}
+
+.journey_content,
+.journey_image {
+  width: 50%;
+}
+
+.journey_content h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  color: #1F1534;
+  margin-bottom: 20px;
+}
+
+.journey_text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: #7D7987;
+  max-width: 470px;
+}
+
+.journey_list {
+  margin: 28px 0 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.journey_list li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1F1534;
+}
+
+.journey_list li i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #69B99D;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+.journey_image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.journey_image img {
+  width: 100%;
+  max-width: 500px;
+  height: 520px;
+  object-fit: cover;
+  border-radius: 28px;
+  box-shadow: 0 18px 45px rgba(31, 21, 52, 0.12);
+}
+/* ==== Journey Section Style End ==== */
