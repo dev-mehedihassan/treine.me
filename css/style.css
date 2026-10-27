@@ -525,3 +525,78 @@ h1,h2,h3,h4,h5,h6,p{
   color: #7D7987;
 }
 /* ==== Testimonials Section Style End ==== */
+
+/* ==== Call To Action Section Style Start ==== */
+#join_now {
+  padding: 0 0 120px;
+}
+
+.join_now_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 56px 64px;
+  background: #69B99D;
+  border-radius: 24px;
+}
+
+.join_now_content {
+  max-width: 610px;
+}
+
+.join_now_tag {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 160%;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 16px;
+}
+
+.join_now_content h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 125%;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.join_now_content > p:last-child {
+  max-width: 520px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 180%;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.join_now_btn {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 24px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  background: #FFFFFF;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  color: #69B99D;
+  transition: all linear 0.3s;
+}
+
+.join_now_btn i {
+  font-size: 20px;
+}
+
+.join_now_btn:hover {
+  background: transparent;
+  color: #FFFFFF;
+}
+/* ==== Call To Action Section Style End ==== */
