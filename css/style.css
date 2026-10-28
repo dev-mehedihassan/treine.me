@@ -377,6 +377,76 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ==== About Section Style End ==== */
 
+/* ==== About Values Section Style Start ==== */
+#about_values_section {
+  padding: 80px 0 120px;
+  background: #F7FBFA;
+}
+
+.about_values_header {
+  max-width: 650px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.about_values_header h2 {
+  margin-bottom: 16px;
+  color: #1F1534;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.about_values_header > p:last-child {
+  color: #7D7987;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 180%;
+}
+
+.about_values_grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.about_value_card {
+  padding: 30px 26px;
+  border: 1px solid rgba(105, 185, 157, 0.18);
+  border-radius: 20px;
+  background: #FFFFFF;
+  box-shadow: 0 12px 30px rgba(31, 21, 52, 0.06);
+}
+
+.about_value_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 22px;
+  border-radius: 16px;
+  background: rgba(105, 185, 157, 0.12);
+  color: #69B99D;
+  font-size: 24px;
+}
+
+.about_value_card h3 {
+  margin-bottom: 12px;
+  color: #1F1534;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.about_value_card p {
+  color: #7D7987;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 180%;
+}
+/* ==== About Values Section Style End ==== */
+
 /* ==== Programs Section Style Start ==== */
 #programs {
   padding: 0 0 120px;
