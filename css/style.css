@@ -799,43 +799,81 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ==== Call To Action Section Style End ==== */
 
-@media (max-width: 768px) {
-  #training_schedule {
-    padding: 64px 0 80px;
-  }
-
-  #faq {
-    padding-bottom: 80px;
-  }
-
-  .schedule_header {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 16px;
-    margin-bottom: 32px;
-  }
-
-  .schedule_header h2 {
-    font-size: 32px;
-  }
-
-  .schedule_grid {
-    grid-template-columns: 1fr;
-  }
-
-  .schedule_card > p {
-    min-height: 0;
-  }
-
-  .faq_header h2 {
-    font-size: 32px;
-  }
-
-  .faq_item {
-    padding: 20px 8px;
-  }
-
-  .faq_item summary {
-    font-size: 16px;
-  }
+/* ==== Footer Section Style Start ==== */
+#footer {
+  padding: 64px 0 24px;
+  background: #F7FBFA;
 }
+
+.footer_main {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.4fr;
+  gap: 48px;
+  padding-bottom: 48px;
+}
+
+.footer_brand img {
+  display: block;
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.footer_brand > p {
+  max-width: 320px;
+  color: #7D7987;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 180%;
+}
+
+.footer_column h2 {
+  margin-bottom: 20px;
+  color: #1F1534;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.footer_column ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer_column a,
+.footer_bottom a {
+  color: #7D7987;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 160%;
+  transition: color 0.2s ease;
+}
+
+.footer_column a:hover,
+.footer_bottom a:hover {
+  color: #69B99D;
+}
+
+.footer_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(105, 185, 157, 0.2);
+}
+
+.footer_bottom p {
+  color: #7D7987;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  line-height: 160%;
+}
+
+.footer_bottom a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+/* ==== Footer Section Style End ==== */
