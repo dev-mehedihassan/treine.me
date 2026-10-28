@@ -438,6 +438,124 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ==== Journey Section Style End ==== */
 
+/* ==== Training Schedule Section Style Start ==== */
+#training_schedule {
+  padding: 80px 0 120px;
+  background: #F7FBFA;
+}
+
+.schedule_header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+.schedule_header h2 {
+  max-width: 520px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  color: #1F1534;
+}
+
+.schedule_intro {
+  max-width: 390px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 180%;
+  color: #7D7987;
+}
+
+.schedule_grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.schedule_card {
+  position: relative;
+  padding: 30px 28px;
+  background: #FFFFFF;
+  border: 1px solid rgba(105, 185, 157, 0.18);
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(31, 21, 52, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.schedule_card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 35px rgba(31, 21, 52, 0.1);
+}
+
+.schedule_card_highlight {
+  background: #69B99D;
+  border-color: #69B99D;
+}
+
+.schedule_day {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(105, 185, 157, 0.12);
+  color: #69B99D;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.schedule_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin: 24px 0 20px;
+  border-radius: 16px;
+  background: rgba(105, 185, 157, 0.12);
+  color: #69B99D;
+  font-size: 24px;
+}
+
+.schedule_card h3 {
+  margin-bottom: 12px;
+  color: #1F1534;
+  font-size: 21px;
+  line-height: 130%;
+}
+
+.schedule_card > p {
+  min-height: 54px;
+  margin-bottom: 20px;
+  color: #7D7987;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 180%;
+}
+
+.schedule_duration {
+  color: #69B99D;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.schedule_card_highlight .schedule_day,
+.schedule_card_highlight .schedule_icon {
+  background: rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+}
+
+.schedule_card_highlight h3,
+.schedule_card_highlight > p,
+.schedule_card_highlight .schedule_duration {
+  color: #FFFFFF;
+}
+/* ==== Training Schedule Section Style End ==== */
+
 /* ==== Testimonials Section Style Start ==== */
 #testimonials {
   padding: 0 0 120px;
@@ -600,3 +718,28 @@ h1,h2,h3,h4,h5,h6,p{
   color: #FFFFFF;
 }
 /* ==== Call To Action Section Style End ==== */
+
+@media (max-width: 768px) {
+  #training_schedule {
+    padding: 64px 0 80px;
+  }
+
+  .schedule_header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .schedule_header h2 {
+    font-size: 32px;
+  }
+
+  .schedule_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .schedule_card > p {
+    min-height: 0;
+  }
+}
