@@ -687,6 +687,40 @@ h1,h2,h3,h4,h5,h6,p{
 /* ==== About Call To Action Section Style End ==== */
 
 /* ==== Programs Section Style Start ==== */
+#training_intro {
+  padding: 80px 0 64px;
+}
+
+.training_intro_content {
+  max-width: 760px;
+  text-align: center;
+}
+
+.training_intro_content h1 {
+  margin-bottom: 20px;
+  color: #1F1534;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.training_intro_content > p:not(.section_tag) {
+  max-width: 620px;
+  margin: 0 auto 28px;
+  color: #7D7987;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 180%;
+}
+
+.training_intro_content .btn_start {
+  justify-content: center;
+}
+
+.training_intro_content .btn_start i {
+  font-size: 16px;
+}
+
 #programs {
   padding: 0 0 120px;
 }
@@ -999,6 +1033,39 @@ h1,h2,h3,h4,h5,h6,p{
   color: #FFFFFF;
 }
 /* ==== Training Schedule Section Style End ==== */
+
+/* ==== Training Call To Action Section Style Start ==== */
+#training_start {
+  padding: 0 0 120px;
+}
+
+.training_start_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 40px 48px;
+  border-radius: 24px;
+  background: #F7FBFA;
+}
+
+.training_start_wrapper > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.training_start_wrapper h2 {
+  max-width: 580px;
+  color: #1F1534;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.training_start_wrapper .btn_start {
+  flex-shrink: 0;
+}
+/* ==== Training Call To Action Section Style End ==== */
 
 /* ==== Testimonials Section Style Start ==== */
 #testimonials {
