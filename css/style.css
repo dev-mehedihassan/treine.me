@@ -526,6 +526,72 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ==== About Journey Section Style End ==== */
 
+/* ==== About Call To Action Section Style Start ==== */
+#about_next_step {
+  padding: 0 0 120px;
+}
+
+.about_next_step_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 48px 56px;
+  border-radius: 24px;
+  background: #69B99D;
+}
+
+.about_next_step_content {
+  flex: 1;
+  min-width: 0;
+}
+
+.about_next_step_tag {
+  margin-bottom: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 160%;
+  text-transform: uppercase;
+}
+
+.about_next_step_content h2 {
+  max-width: 580px;
+  margin-bottom: 14px;
+  color: #FFFFFF;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.about_next_step_content > p:last-child {
+  max-width: 540px;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 180%;
+}
+
+.about_next_step_link {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 24px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  background: #FFFFFF;
+  color: #69B99D;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 21px;
+}
+/* ==== About Call To Action Section Style End ==== */
+
 /* ==== Programs Section Style Start ==== */
 #programs {
   padding: 0 0 120px;
