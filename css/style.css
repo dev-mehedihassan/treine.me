@@ -1174,6 +1174,83 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ==== Training Outcomes Section Style End ==== */
 
+/* ==== Training Plan Section Style Start ==== */
+#training_plan {
+  padding: 0 0 120px;
+}
+
+.training_plan_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.training_plan_image,
+.training_plan_content {
+  width: 50%;
+}
+
+.training_plan_image {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.training_plan_image img {
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 28px;
+  box-shadow: 0 18px 45px rgba(31, 21, 52, 0.12);
+}
+
+.training_plan_content h2 {
+  margin-bottom: 20px;
+  color: #1F1534;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.training_plan_content > p:not(.section_tag) {
+  margin-bottom: 24px;
+  color: #7D7987;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 180%;
+}
+
+.training_plan_list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.training_plan_list li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: #1F1534;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.training_plan_list li i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #69B99D;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+/* ==== Training Plan Section Style End ==== */
+
 /* ==== Training Call To Action Section Style Start ==== */
 #training_start {
   padding: 0 0 120px;
