@@ -1847,7 +1847,7 @@ h1,h2,h3,h4,h5,h6,p{
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 160%;
-  transition: color 0.2s ease;
+  transition: all linear 0.3s;
 }
 
 .footer_column a:hover,
@@ -1929,7 +1929,7 @@ h1,h2,h3,h4,h5,h6,p{
 .training-page .training_intro_content .btn_start {
   border-radius: 999px;
   box-shadow: 0 10px 24px rgba(53, 137, 109, 0.2);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  transition: all linear 0.3s;
 }
 
 .training-page .training_intro_content .btn_start:hover {
@@ -1986,7 +1986,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .training-page .program_image img {
-  transition: transform 0.45s ease;
+  transition: all linear 0.3s;
 }
 
 .training-page .program_card:hover .program_image img {
@@ -2032,7 +2032,7 @@ h1,h2,h3,h4,h5,h6,p{
   content: "\f061";
   font-family: "Font Awesome 6 Free";
   font-size: 12px;
-  transition: transform 0.2s ease;
+  transition: all linear 0.3s;
 }
 
 .training-page .program_link:hover::after {
@@ -2133,7 +2133,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .training-page .training_start_wrapper .btn_start {
   border-radius: 999px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: all linear 0.3s;
 }
 
 .training-page .training_start_wrapper .btn_start:hover {
