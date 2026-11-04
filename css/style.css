@@ -2146,3 +2146,18 @@ h1,h2,h3,h4,h5,h6,p{
   outline-offset: 4px;
 }
 /* ==== Training Page Style End ==== */
+
+/* ==== Responsive Style Start ==== */
+@media (max-width: 1024px) {
+  .training-page .training_intro_content {
+    padding: 56px 48px;
+  }
+
+  .training-page .programs_wrapper {
+    gap: 20px;
+  }
+
+  .training-page .schedule_grid {
+    gap: 16px;
+  }
+}
