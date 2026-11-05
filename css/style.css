@@ -2175,3 +2175,17 @@ h1,h2,h3,h4,h5,h6,p{
     gap: 12px;
   }
 }
+
+@media (max-width: 480px) {
+  .training-page .training_intro_content {
+    padding: 32px 24px;
+  }
+
+  .training-page .programs_wrapper {
+    gap: 12px;
+  }
+
+  .training-page .schedule_grid {
+    gap: 8px;
+  }
+}
