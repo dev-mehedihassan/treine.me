@@ -2162,6 +2162,20 @@ h1,h2,h3,h4,h5,h6,p{
   }
 }
 
+@media (max-width: 1200px) {
+  .training-page .training_intro_content {
+    padding: 60px 52px;
+  }
+
+  .training-page .programs_wrapper {
+    gap: 22px;
+  }
+
+  .training-page .schedule_grid {
+    gap: 18px;
+  }
+}
+
 @media (max-width: 1024px) {
   .training-page .training_intro_content {
     padding: 56px 48px;
