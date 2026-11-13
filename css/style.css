@@ -2230,6 +2230,14 @@ h1,h2,h3,h4,h5,h6,p{
   .training-page .schedule_grid {
     gap: 4px;
   }
+
+  .about_content h2 {
+    font-size: 28px;
+  }
+
+  .about_content > p {
+    font-size: 14px;
+  }
 }
 
 /* ==== Responsive Style End ==== */
