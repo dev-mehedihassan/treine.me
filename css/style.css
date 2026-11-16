@@ -2247,6 +2247,15 @@ h1,h2,h3,h4,h5,h6,p{
   .about_content .btn_start i {
     font-size: 16px;
   }
+
+  .training-page .program_content h3 {
+    font-size: 20px;
+  }
+
+  .about_content .btn_start {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
 }
 
 /* ==== Responsive Style End ==== */
