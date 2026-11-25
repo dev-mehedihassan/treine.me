@@ -2265,15 +2265,6 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 10px 16px;
     font-size: 14px;
   }
-
-  .about_content .btn_start i {
-    font-size: 16px;
-  }
-
-  .about_content .btn_start {
-    padding: 10px 16px;
-    font-size: 14px;
-  }
 }
 
 /* ==== Responsive Style End ==== */
